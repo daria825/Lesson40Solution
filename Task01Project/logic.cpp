@@ -5,7 +5,7 @@ string calculate_likes(int like, int day) {
 		return "Error! Some data was entered incorrectly.";
 	}
 
-	string result = "Day 1: " + to_string(like) + "likes";
+	string result = "Day 1: " + to_string(like) + " likes";
 
 	for (int i = 2; i <= day; i++)
 	{
